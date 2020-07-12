@@ -24,6 +24,7 @@ p.desc{
     color: rgb(40, 40, 58);
     font-size: 8pt;
     text-align: left;
+    padding: 15px;
 }
 
 h1#carreer{
@@ -47,7 +48,9 @@ div#baixo-esq ul li{
     opacity: 1;
     animation: surgir;
     animation-duration: 4s;
-    padding: 10px;
+    padding: 4px;
+    text-align: left;
+    /* list-style: none; */
 }
 
 div#baixo-dir ul li{
@@ -70,9 +73,22 @@ div#baixo-dir{
     border-radius: 30px 0px 30px 30px;
 }
 
+div.tudo{
+    /* background-color: aquamarine; */
+    width: 82%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
 section{
     display: inline-block;
     width: 100%;
+}
+
+img#uxdesign{
+    width: 20%;
+    height: 20%;
+    float: left;
 }
 
 p#ab-titulo-dir{
@@ -90,7 +106,7 @@ p#ab-titulo-dir{
     position: relative;
     margin: auto;
     width: 72%;
-    height: 300px;
+    height: 400px;
     display: block;
     animation: abrir;
     animation-duration: 1s;
