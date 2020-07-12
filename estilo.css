@@ -1,0 +1,191 @@
+#esquerda{
+    width: 40%;
+    background-color: rgb(0, 255, 234);
+    float: left;
+    text-align: right;
+    margin-left: 6%;
+    transition: font-size ease-in-out 1s, width ease-in-out 2s;
+}
+
+#spanish{
+    width: 28px;
+    height: 28px;
+    border-radius: 100px;
+}
+
+#english{
+    width: 28px;
+    height: 26px;
+    border-radius: 100px;
+}
+
+#port{
+    width: 27px;
+    height: 25px;
+    border-radius: 100px;
+}
+
+#ind-direita li{
+    margin-bottom: 10px;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+#ind-direita li:hover{
+    font-weight: bold;
+}
+
+#ind-direita .icon{
+    border: 2px rgb(38, 49, 70) solid;
+}
+
+#ind-direita{
+    margin-left: 40px;
+    font-size: 10pt;
+    /*background-color: rgba(128, 0, 128, 0.171);*/
+    position: relative;
+}
+
+#ind-esquerda h1{
+    text-align: left;
+}
+
+#ind-esquerda:hover{
+    background-color: rgb(35, 35, 95);
+    color: aliceblue;
+    font-style: italic;
+    transition: background-color ease-in-out 1s, font-style ease-in-out 5s, color ease-in-out 2s;
+}
+
+#ind-direita h1{
+    text-align: center;
+    font-size: 12pt;
+    color: rgba(31, 20, 20, 0.301);
+}
+
+
+#ind-esquerda{
+    font-size: 12pt;
+    font-family: Roboto;
+    width: 700px;
+    color: rgba(25, 25, 75, 0.356);
+    text-align: justify;
+    padding: 10px 40px 20px 40px;
+    background-color: rgba(57, 53, 121, 0.11);
+    transition: background-color ease-in-out 1s, font-style ease-in-out 5s, color ease-in-out 2s;
+}
+
+#esquerda h1{
+    font-family: "DryBrush";
+    font-size: 34pt;
+    color: black;
+    transition: font-size ease-in-out 1s;
+}
+
+#direita h1{
+    transition: font-size ease-in-out 1s;
+}
+
+#direita{
+    width: 40%;
+    /*background-color: rgba(201, 201, 230, 0.301);*/
+    float: right;
+    text-align: left;
+    margin-right: 6%;
+    transition: width ease-in-out 2s;
+}
+
+#direita:hover,#esquerda:hover{
+    width: 42%;
+    transition: font-size ease-in 1s, width ease-in 2s;
+}
+
+#direita:hover h1{
+    font-size: 36pt;
+    transition: font-size ease-in-out 1s, width ease-in-out 2s;
+}
+
+#esquerda:hover h1{
+    font-size: 40pt;
+    transition: font-size ease-in-out .1s, width ease-in-out 0.2s;
+}
+
+#direita h1{
+    text-align: left;
+    font-family: "Bookman Old Style";
+    color: black;
+}
+
+#esquerda,#direita li{
+    font-family: "Roboto", sans-serif;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    margin: 0 10px 0 0px;
+}
+
+#linha-vertical {
+    background-color: rgba(148, 49, 49, 0.24);
+    width: 5px;/*Altura da linha*/
+    height: 240px;
+    /*border: 2px solid black;/* Adiciona borda esquerda na div como ser fosse uma linha.*/ 
+    border-radius: 50px;
+}
+
+.vert{
+    height: 50px;
+    width: 2px;
+    background-color: blueviolet;
+}
+
+section.middle{
+    display: inline-block;
+    width: 100%;
+ }
+
+ section.middle:hover{
+    /*background-color: rgba(168, 143, 143, 0.301);*/
+    transition: background-image ease-in-out 3s;
+ }
+
+ section.middle:hover{
+    background-image: url("pattern/linhasdiag4.png"); 
+    background-repeat: repeat;
+    background-size: 42%;
+ }
+
+ section.middle div{
+     display: inline-block;
+     /*border: 2px solid black;*/
+ }
+ 
+div h1{
+    text-align: center;
+}
+
+div#direita li{
+    display: block;
+    font-size: 12pt;
+    line-height: 2px;
+    padding: 5px 0px 20px 0px;
+}
+
+div#esquerda li{
+    display: block;
+    font-size: 12pt;
+    padding: 5px 60px 20px 20px;
+}
+
+a.list{
+    display: inline;
+    margin: 0px;
+    padding: 20px 140px 40px 140px;
+}
+
+@font-face {
+    font-family: "DryBrush";
+    src: local("Dry Brush.ttf"),
+    url("fonts/DryBrush.ttf") format("truetype");        
+  }

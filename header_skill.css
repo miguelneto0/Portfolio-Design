@@ -1,0 +1,83 @@
+header{
+    font-size: 20pt;
+    width: 97%;
+}
+
+p#titulo-dir{
+    font-family: "Baskerville", serif;
+    font-size: 32pt;
+    font-style: bold;
+    padding: 20px 0px 0px 0px;
+    color: rgb(104, 93, 93);
+    /*background-color: rgb(76, 171, 235);*/
+    float: right;
+}
+
+div#subheader{
+    margin: auto;
+    width: 25%;
+    /*background-color: rgb(70, 255, 193);*/
+}
+
+body{
+    background-color: rgb(240, 239, 239);
+    font: normal 15pt Arial;
+    text-align: center;
+    color: rgb(136, 121, 121);
+}
+
+img.miguel{
+    border-radius: 100px;
+    border: 5px solid white;
+    box-shadow: 2px 5px 5px rgba(147, 147, 209, 0.459);
+}
+
+div img.miguel{
+    width: 80px;
+    height: 80px;
+    transition: width ease-in-out 1s, height ease-in-out 1s, filter ease-in-out 1s;
+}
+
+div img.miguel:hover{
+    width: 100px;
+    height: 100px;
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(121, 127, 209, 0.2));
+}
+
+nav{
+    /*background-color: orange;*/
+    width: 100%;
+    float: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+ul.menu {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  li#menu {
+    float: left;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20pt;
+    width: 25%;
+    /*padding: 10px 10px 10px 10px;*/
+  }
+  
+  li#menu a {
+    display: block;
+    color: rgb(147, 164, 194);
+    text-align: center;
+    text-decoration: none;
+    transition: background-image ease-in-out 1s;    
+  }
+  
+  li#menu a:hover {
+    background-image: radial-gradient(rgba(228, 222, 222, 0.918) 30%, rgb(240, 239, 239) 80%);
+    color: rgb(107, 107, 167);
+    text-decoration: none;
+  }

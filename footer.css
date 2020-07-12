@@ -1,0 +1,27 @@
+a#fra{
+    font-family: monospace;
+    font-size: 8pt;
+    font-style: italic;
+    color: rgba(170, 175, 179, 0.548);
+    /*padding: 0px 0px 0px 0;*/
+}
+
+a#fra:hover{color: rgba(170, 175, 179, 0.848);}
+
+div#frase{
+    
+    padding: 30px 20px 30px 10px;
+}
+
+footer{
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: aliceblue;
+    font-size: 10pt;
+    background-color: rgba(235, 224, 224, 0.37);
+    color: rgba(148, 49, 49, 0.714);
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
