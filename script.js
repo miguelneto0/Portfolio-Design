@@ -23,11 +23,38 @@ $(document).ready(function(){
         $("div.cima").slideToggle();
      });
 });
-//document.getElementById("spanish").addEventListener("click", traduz)
 
-//document.getElementsByClassName("descript").addEventListener("onmouseover", traduz)
 
-document.getElementById("spanish").addEventListener("click", traduzspanish)
+document.getElementById('carreerc').addEventListener('click', gira)
+document.getElementById('carreerb').addEventListener('click', girab)
+
+var y = 0
+function gira(){
+    var seta = document.getElementById('icon-setac')
+    var x = 180 + y;
+    // var divc = document.getElementById('cima')
+    // if(divc.style.display == 'none'){
+    //     seta.style.transform = 'rotate(0deg)';
+    //     seta.style.transition = 'transform .8s ease-in-out'
+    // }else{
+        seta.style.transform = 'rotate('+x+'deg)'
+        seta.style.transition = 'transform .8s ease-in-out'
+    y+=180;
+        //     seta.style.transition = 'transform .8s ease-in-out'
+    // }
+}
+
+
+w = 0
+function girab(){
+    var seta = document.getElementById('icon-setab')
+    var x = 180 + w;
+        seta.style.transform = 'rotate('+x+'deg)'
+        seta.style.transition = 'transform .8s ease-in-out'
+    w+=180;
+}
+
+document.getElementById("spanish").addEventListener('click', traduzspanish)
 document.getElementById("english").addEventListener("click", traduzeng)
 document.getElementById("port").addEventListener("click", traduzport)
 
