@@ -94,6 +94,12 @@ img.icon-apps:hover{
 
 img.icon-lan{
     width: 8%;
+    transition: transform .2s ease-in-out;
+}
+
+img.icon-lan:hover{
+    transform: scale(1.2);
+    transition: transform .1s ease-in-out;
 }
 
 div.barra{
@@ -200,7 +206,7 @@ h1#skill{
     background-color: rgba(151, 151, 151, 0.315);
     position: relative;
     margin: auto;
-    width: 84%;
+    width: 88%;
     height: 200px;
     display: none;        
 }
