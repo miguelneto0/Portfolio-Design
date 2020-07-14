@@ -7,7 +7,11 @@ function carregar(){
 
 $(document).ready(function(){
     $(".carreerb").click(function(){
-        $("div.baixo").slideToggle();
+        $("div.baixo").slideToggle("slow", function(){
+            if($("div.baixo").is(":visible")){
+                window.scrollBy(0,500);
+            }
+        });
      });
     // $(".carreerc").click(function(){
     //     $("div.cima").slideToggle();

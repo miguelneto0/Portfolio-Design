@@ -166,11 +166,34 @@ li.lan{
 section{
     display: inline-block;
     width: 100%;
+    height: 80%;
 }
 
 img.icon-freel{
     width: 80px;
     float: left;
+}
+
+img.icon-acad{
+    width: 80px;
+    padding-bottom: 25px;
+    transition: transform .2s ease-in-out;
+}
+
+img.icon-grad{
+    width: 50px;
+    transition: transform .2s ease-in-out;
+}
+
+img.icon-acad1{
+    width: 83px;
+    padding-bottom: 25px;
+    transition: transform .2s ease-in-out;
+}
+
+img.icon-acad:hover, img.icon-acad1:hover, img.icon-grad:hover{
+    transform: scale(1.2);
+    transition: transform .3s ease-in-out;
 }
 
 p#ab-titulo-dir{
@@ -207,8 +230,49 @@ h1#skill{
     position: relative;
     margin: auto;
     width: 88%;
-    height: 200px;
+    height: 250px;
+    padding-top: 20px;
     display: none;        
+}
+
+div#cima-esq{
+    width: 45%;
+    margin: auto;
+    float: left;
+    padding-top: 10px;
+}
+
+div#cima-esq ul li{
+    list-style: none;
+}
+
+p.univ{
+    font-size: 9pt;
+    text-align: left;
+    padding-left: 140px;
+    opacity: .4;
+}
+
+p.univ:hover{
+    opacity: .72;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+div#cima-dir{
+    width: 45%;
+    float: right;
+    height: 150px;
+    padding: 30px;
+    /* background-color: aquamarine; */
+}
+
+div#cima-dir ul li{
+    list-style: none;
+    margin-right: 120px;
+    text-align: left;
 }
 
 div#ab-subheader{
@@ -219,6 +283,11 @@ div#ab-subheader{
 nav#ab-nav{
     width: 100%;
     padding: 0 10px 0 10px;
+}
+
+footer.foot{
+    position: static;
+    bottom: 0;
 }
 
 /* @keyframes abrir{
