@@ -278,6 +278,7 @@ div#cima-dir ul li{
     list-style: none;
     margin-right: 120px;
     text-align: left;
+    display: inline;
 }
 
 div#ab-subheader{
