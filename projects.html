@@ -9,44 +9,41 @@
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="header_skill.css">
+    <link rel="stylesheet" href="about.css">
 </head>
 <body>
     <header>
         <ul class="menu">
-            <li id="menu"><a class="list" href="indexpage.html">Home</a></li>
-            <li id="menu"><a class="list" href="news.asp">Projects</a></li>
-            <li id="menu"><a class="list" href="skills.html">Skills</a></li>
+            <li id="menu"><a class="list" href="index.html">Home</a></li>
+            <li id="menu"><a class="list" href="projetcts.html">Projects</a></li>
+            <li id="menu"><a class="list" href="contact.html">Contact</a></li>
             <li id="menu"><a class="list" href="about.html">About</a></li>
           </ul>
     </header>
-    <nav>
-            <div id="subheader">
-                <img class="miguel" src="20170624_151106.png" alt="Smiley face">
-                <p id="titulo-dir"><strong>LINO</strong>, Miguel.</p>
-            </div>    
-    </nav>
+    <nav id="ab-nav">
+        <div id="ab-subheader">
+            <img class="ab-miguel" src="20170624_151106.png" alt="Smiley face">
+            <p id="ab-titulo-dir"><strong>LINO</strong>, Miguel.</p>
+        </div>    
+</nav>
     <!-- - Welcome to my portfolio. -->
     <hr>
     <section class="middle">
-        <div id="esquerda">
-            <h1>Freelancer</h1>
-            <ul>
-                <li class="esq">Audiovisual Producer</li>
-                <li class="esq">Graphic, Illustrator and Web Designer</li>
-                <li class="esq">Digital Marketing</li>
-            </ul>
-        </div>
-        
-        <!-- <hr class="vert" size="100" align="center"> -->
-        <!-- <div id="linha-vertical"></div> -->
-
-        <div id="direita">
-            <h1>Academic Graduation</h1>
-            <ul>
-                <li> <img class="icon" src="icons/research2.png"> Research in Wireless Sensor Networks, Real-time Systems and <br/>&emsp;&emsp;&ensp;&ensp;&nbsp;Automation Engineering</li>
-                <li><img class="icon" src="icons/prata.png">Master Graduate in Computer Science</li>
-                <li><img class="icon" src="icons/bronze2.png">Computer Science in Federal University of Piaui [2017]</li>
-            </ul>
+        <div id="project">
+            <div class="gallery">
+                <div class="gallery__prev"></div>
+                <div class="gallery__next"></div>
+                <div class="gallery__stream">
+                  <div class="gallery__item bg-1"></div>
+                  <div class="gallery__item bg-2"></div>
+                  <div class="gallery__item bg-3"></div>
+                  <div class="gallery__item bg-4"></div>
+                  <div class="gallery__item bg-5"></div>
+                  <div class="gallery__item bg-6"></div>
+                  <div class="gallery__item bg-7"></div>
+                </div>
+              </div>
         </div>
     
     </section>
@@ -61,5 +58,7 @@
     </footer>
     
         <script src="script.js"></script>
+        <script src="script-project.js"></script>
+        <script src="script-home.js"></script>
 </body>
 </html>
