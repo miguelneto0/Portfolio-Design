@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+div#project{
+    background-color: rgba(43, 24, 54, 0.678);
+    width: 95%;
+    height: 540px;
+    margin: auto;
+}
+
+
+  
+  /* Galeria */
+  
+  .gallery {
+    position: relative;
+    top: 42%;
+    transform: translateY(-50%);
+    width: 80%;
+    margin: auto;
+    height: 80%;
+    /* max-height: 28vw; */
+    overflow: hidden;
+  }
+  
+  .gallery__stream {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100%;
+  }
+  
+  .gallery__item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: 1s all ease;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 5px;
+  }
+
+  /* Itens */
+
+  .gallery__item:nth-child(1) {
+    left: 0;
+    z-index: 1;
+    transform: translateX(-100%) scale(.8);
+  }
+  
+  .gallery__item:nth-child(2) {
+    left: 0;
+    z-index: 2;
+    transform: translateX(-50%) scale(.8);
+  }
+  
+  .gallery__item:nth-child(3) {
+    left: 50%;
+    z-index: 4;
+    transform: translateX(-50%) scale(1);
+  }
+  
+  .gallery__item:nth-child(4) {
+    left: 100%;
+    z-index: 2;
+    transform: translateX(-50%) scale(.8);
+  }
+  
+  .gallery__item:nth-child(n+5) {
+    left: 100%;
+    z-index: 1;
+    transform: scale(.8);
+  }
+
+  h1.tit-sub-proj{
+      width: 50%;
+      margin: auto;
+      padding: 20px 20px 0px 20px;
+  }
+
+  img.bg2{
+      width: 25%;
+  }
+
+  img.bg3{
+      width: 25%;
+  }
+  /* .bg-1{
+    width: 20%;
+    background-image: url("/projects/agrodigital.png");
+  }
+
+  .bg-2{
+    width: 20%;
+      background-image: url("/projects/paginaWeb1.jpg");
+  }
+
+  .bg-3{
+    width: 20%;
+      background-image: url("/projects/paginaWeb2disciplinas.jpg");
+  }
+
+  .bg-4{
+    width: 20%;
+    background-image: url("/projects/paginaWeb3aulas.jpg");
+  } */
+
+  /* Controles */
+
+.gallery__prev,
+.gallery__next {
+  position: absolute;
+  top: 50%;
+  z-index: 4;
+  width: 50%;
+  height: 100%;
+  transform: translateX(-50%) translateY(-50%) scale(.8);
+  cursor: pointer;
+}
+
+.gallery__prev {
+  left: 0;
+}
+
+.gallery__next {
+  left: 100%;
+}
+
+/* Sombras */
+
+.gallery:before,
+.gallery:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 20%;
+  height: 100%;
+  z-index: 3;
+}
+
+.gallery:before {
+  left: 0;
+  background:  linear-gradient(to right, rgba(43, 24, 54,1) 0%, rgba(43, 24, 54,0) 100%);
+}
+
+.gallery:after {
+  right: 0;
+  background:  linear-gradient(to left, rgba(43, 24, 54,1) 0%, rgba(43, 24, 54,0) 100%);
+}
