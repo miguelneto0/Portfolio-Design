@@ -241,20 +241,29 @@ h1#skill{
 }
 
 div#cima-esq{
-    width: 45%;
+    width: 50%;
     margin: auto;
     float: left;
-    padding-top: 10px;
+    padding-left: 5%;
 }
 
 div#cima-esq ul li{
     list-style: none;
+    text-align: left;
+    transition: font-size .2s ease-in-out;
+}
+
+
+div#cima-esq ul li:hover{
+    font-size: 16pt;
+    color: black;
+    transition: font-size .2s ease-in-out;
 }
 
 p.univ{
     font-size: 9pt;
     text-align: left;
-    padding-left: 140px;
+    padding-left: 10%;
     opacity: .4;
 }
 
