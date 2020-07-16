@@ -32,7 +32,7 @@ div#project2{
     overflow: hidden;
   }
   
-  .gallery__stream {
+  .gallery__stream,.gallery__stream2 {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -40,7 +40,7 @@ div#project2{
     height: 100%;
   }
   
-  .gallery__item {
+  .gallery__item,.gallery__item2 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -53,31 +53,31 @@ div#project2{
 
   /* Itens */
 
-  .gallery__item:nth-child(1) {
+  .gallery__item:nth-child(1),.gallery__item2:nth-child(1){
     left: 0;
     z-index: 1;
     transform: translateX(-100%) scale(.8);
   }
   
-  .gallery__item:nth-child(2) {
+  .gallery__item:nth-child(2),.ga2:nth-child(2) {
     left: 0;
     z-index: 2;
     transform: translateX(-50%) scale(.8);
   }
   
-  .gallery__item:nth-child(3) {
+  .gallery__item:nth-child(3),.gallery__item2:nth-child(3) {
     left: 50%;
     z-index: 4;
     transform: translateX(-50%) scale(1);
   }
   
-  .gallery__item:nth-child(4) {
+  .gallery__item:nth-child(4),.gallery__item2:nth-child(4){
     left: 100%;
     z-index: 2;
     transform: translateX(-50%) scale(.8);
   }
   
-  .gallery__item:nth-child(n+5) {
+  .gallery__item:nth-child(n+5),.gallery__item2:nth-child(n+5){
     left: 100%;
     z-index: 1;
     transform: scale(.8);
@@ -136,7 +136,7 @@ h1#welcome{
   /* Controles */
 
 .gallery__prev,
-.gallery__next {
+.gallery__next,.gallery__prev2,.gallery__next2 {
   position: absolute;
   top: 50%;
   z-index: 4;
@@ -146,18 +146,18 @@ h1#welcome{
   cursor: pointer;
 }
 
-.gallery__prev {
+.gallery__prev,.gallery__prev2 {
   left: 0;
 }
 
-.gallery__next {
+.gallery__next,.gallery__next2 {
   left: 100%;
 }
 
 /* Sombras */
 
 .gallery:before,
-.gallery:after {
+.gallery:after{
   display: block;
   content: "";
   position: absolute;
@@ -172,7 +172,7 @@ h1#welcome{
   background:  linear-gradient(to right, rgba(43, 24, 54,1) 0%, rgba(43, 24, 54,0) 100%);
 }
 
-.gallery:after {
+.gallery:after{
   right: 0;
   background:  linear-gradient(to left, rgba(43, 24, 54,1) 0%, rgba(43, 24, 54,0) 100%);
 }
