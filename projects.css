@@ -5,15 +5,15 @@
   }
   
 div#project{
-    background-color: rgba(43, 24, 54, 0.678);
+    background-color: rgb(43, 24, 54);
     width: 95%;
-    height: 540px;
+    height: 580px;
     margin: auto;
 }
 div#project2{
     background-color: rgba(32, 14, 43, 0.808);
     width: 95%;
-    height: 540px;
+    height: 580px;
     margin: auto;
 }
 
@@ -34,7 +34,7 @@ div#project2{
   
   .gallery__stream,.gallery__stream2 {
     position: relative;
-    top: 50%;
+    top: 60%;
     transform: translateY(-50%);
     width: 100%;
     height: 100%;
@@ -90,12 +90,29 @@ div#project2{
       color: aliceblue;
   }
 
+img.bg1{
+  width: 40%;
+  border-radius: 5px;
+}
+
   img.bg2{
-      width: 25%;
+      width: 35%;
+      border-radius: 5px;
   }
 
   img.bg3{
-      width: 25%;
+      width: 35%;
+      border-radius: 5px;
+    }
+
+  img.bg4{
+    width: 30%;
+    border-radius: 5px;
+  }
+
+  img.bg5{
+    width: 40%;
+    border-radius: 5px;
   }
 
 article#welcome{
