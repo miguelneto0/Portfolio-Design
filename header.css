@@ -5,9 +5,9 @@ header{
 
 p#titulo-dir{
     font-family: "Baskerville", serif;
-    font-size: 64pt;
+    font-size: 44pt;
     font-style: bold;
-    padding: 0px 0px 0px 0px;
+    padding: 2%;
     color: rgb(104, 93, 93);
     /*background-color: rgb(76, 171, 235);*/
     float: right;
@@ -15,8 +15,9 @@ p#titulo-dir{
 
 div#subheader{
     margin-left: 25%;
-    width: 45%;
-    /*background-color: rgb(70, 255, 193);*/
+    width: 40%;
+    padding: auto;
+    /* background-color: rgb(70, 255, 193); */
 }
 
 body{
@@ -33,8 +34,8 @@ img.miguel{
 }
 
 div img.miguel{
-    width: 120px;
-    height: 120px;
+    width: 16%;
+    height: 16%;
     transition: width ease-in-out 1s, height ease-in-out 1s, filter ease-in-out 1s;
 }
 
@@ -50,8 +51,8 @@ nav{
     /*background-color: orange;*/
     width: 100%;
     float: center;
-    padding-top: 50px;
-    padding-bottom: 40px;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 ul.menu {
