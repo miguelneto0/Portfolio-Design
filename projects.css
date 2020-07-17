@@ -4,21 +4,19 @@
     box-sizing: border-box;
   }
   
-div#project{
+div#project2{
     background-color: rgb(43, 24, 54);
     width: 95%;
     height: 580px;
     margin: auto;
 }
-div#project2{
-    background-color: rgba(32, 14, 43, 0.808);
+div#project{
+    background-color: rgb(72, 57, 81);
     width: 95%;
     height: 580px;
     margin: auto;
 }
 
-
-  
   /* Galeria */
   
   .gallery {
@@ -136,8 +134,8 @@ img.bgC{
   }
 
   img.bgE{
-    width: 40%;
-    border-radius: 158px;
+    width: 45%;
+    border-radius: 8px;
   }
 article#welcome{
     width: 30%;
@@ -205,15 +203,25 @@ h1#welcome{
   top: 0;
   width: 20%;
   height: 100%;
-  z-index: 3;
+   z-index: 3;
 }
 
-.gallery:before {
+#gallery:before {
   left: 0;
   background:  linear-gradient(to right, rgba(43, 24, 54,1) 0%, rgba(43, 24, 54,0) 100%);
 }
 
-.gallery:after{
+#gallery:after{
   right: 0;
   background:  linear-gradient(to left, rgba(43, 24, 54,1) 0%, rgba(43, 24, 54,0) 100%);
+}
+
+.gallery:before {
+  left: 0;
+  background:  linear-gradient(to right, rgba(72, 57, 81,1) 0%, rgba(72, 57, 81,0) 100%);
+}
+
+.gallery:after{
+  right: 0;
+  background:  linear-gradient(to left, rgba(72, 57, 81,1) 0%, rgba(72, 57, 81,0) 100%);
 }
