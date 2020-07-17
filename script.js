@@ -54,6 +54,33 @@ function girab(){
     w+=180;
 }
 
+document.getElementById('ligrad1').addEventListener('mouseover',function(){
+    document.getElementById('icongrad1').style.transform = 'scale(1.2)';
+    document.getElementById('icongrad1').style.transition = 'transform .3s ease-in-out';
+})
+
+document.getElementById('ligrad1').addEventListener('mouseout', function(){
+    document.getElementById('icongrad1').style.transform = 'scale(1)';
+})
+
+document.getElementById('ligrad2').addEventListener('mouseover',function(){
+    document.getElementById('icongrad2').style.transform = 'scale(1.2)';
+    document.getElementById('icongrad2').style.transition = 'transform .3s ease-in-out';
+})
+
+document.getElementById('ligrad2').addEventListener('mouseout', function(){
+    document.getElementById('icongrad2').style.transform = 'scale(1)';
+})
+
+document.getElementById('ligrad3').addEventListener('mouseover',function(){
+    document.getElementById('icongrad3').style.transform = 'scale(1.2)';
+    document.getElementById('icongrad3').style.transition = 'transform .3s ease-in-out';
+})
+
+document.getElementById('ligrad3').addEventListener('mouseout', function(){
+    document.getElementById('icongrad3').style.transform = 'scale(1)';
+})
+
 function show_hide(){
     var click = document.getElementById("cima")
     

@@ -37,6 +37,14 @@ h1#carreerb,h1#carreerc{
 div#baixo-esq{
     width: 50%;
     float: left;
+}
+
+p#linkproj{
+    padding: 8%;
+}
+
+div#baixo-esq-cima{
+    
     animation: surgir2;
     animation-duration: 3s;
     background-color: blueviolet;
@@ -44,7 +52,7 @@ div#baixo-esq{
     border-radius: 40px;
 }
 
-div#baixo-esq ul li{
+div#baixo-esq-cima ul li{
     color: aliceblue;
     opacity: 1;
     animation: surgir;
@@ -263,7 +271,7 @@ div#cima-esq ul li:hover{
 p.univ{
     font-size: 9pt;
     text-align: left;
-    padding-left: 10%;
+    padding-left: 12%;
     opacity: .4;
 }
 
@@ -288,6 +296,16 @@ div#cima-dir ul li{
     margin-right: 120px;
     text-align: left;
     display: inline;
+}
+
+#cima-dir h1{
+    font-size: 18pt;
+    padding: 0% 5% 5% 5%;
+    text-align: left;
+}
+
+div#baixo-esq-baixo{
+    padding: 1%;
 }
 
 div#ab-subheader{
