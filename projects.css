@@ -59,7 +59,7 @@ div#project2{
     transform: translateX(-100%) scale(.8);
   }
   
-  .gallery__item:nth-child(2),.ga2:nth-child(2) {
+  .gallery__item:nth-child(2),.gallery__item2:nth-child(2) {
     left: 0;
     z-index: 2;
     transform: translateX(-50%) scale(.8);

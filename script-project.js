@@ -3,11 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
     var items = document.querySelectorAll('.gallery__item');
     var prev = document.querySelector('.gallery__prev');
     var next = document.querySelector('.gallery__next');
-
-    var stream2 = document.querySelector('.gallery__stream2');
-    var items2 = document.querySelectorAll('.gallery__item2');
-    var prev2 = document.querySelector('.gallery__prev2');
-    var next2 = document.querySelector('.gallery__next2');
   
     prev.addEventListener('click', function() {
       stream.insertBefore(items[items.length - 1], items[0]);
@@ -18,6 +13,11 @@ document.addEventListener('DOMContentLoaded', function() {
       stream.appendChild(items[0]);
       items = document.querySelectorAll('.gallery__item');
     });
+
+    var stream2 = document.querySelector('.gallery__stream2');
+    var items2 = document.querySelectorAll('.gallery__item2');
+    var prev2 = document.querySelector('.gallery__prev2');
+    var next2 = document.querySelector('.gallery__next2');
 
     prev2.addEventListener('click', function() {
         stream2.insertBefore(items2[items2.length - 1], items2[0]);
