@@ -115,6 +115,30 @@ img.bg1{
     border-radius: 5px;
   }
 
+  img.bgA{
+    width: 30%;
+    border-radius: 5px;
+  }
+
+img.bgB{
+  width: 40%;
+  border-radius: 5px;
+}
+
+img.bgC{
+  width: 60%;
+  border-radius: 5px;
+}
+
+  img.bgD{
+    width: 40%;
+    border-radius: 5px;
+  }
+
+  img.bgE{
+    width: 40%;
+    border-radius: 158px;
+  }
 article#welcome{
     width: 30%;
     height: 10%;
