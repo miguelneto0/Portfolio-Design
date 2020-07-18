@@ -16,7 +16,7 @@ p#titulo-dir{
 div#subheader{
     margin-left: 25%;
     width: 40%;
-    padding: auto;
+    /* padding: auto; */
     /* background-color: rgb(70, 255, 193); */
 }
 
@@ -58,7 +58,7 @@ nav{
 ul.menu {
     list-style-type: none;
     width: 100%;
-    margin: 0;
+    margin: auto;
     overflow: hidden;
   }
   

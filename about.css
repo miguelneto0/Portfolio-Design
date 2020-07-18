@@ -213,7 +213,7 @@ p#ab-titulo-dir{
     font-family: "Baskerville", serif;
     font-size: 32pt;
     font-style: bold;
-    padding: 20px 0px 80px 0px;
+    padding: 4% 0 0 0;
     color: rgb(104, 93, 93);
     /*background-color: rgb(76, 171, 235);*/
     float: right;
@@ -249,7 +249,7 @@ h1#skill{
 }
 
 div#cima-esq{
-    width: 50%;
+    width: 52%;
     margin: auto;
     float: left;
     padding-left: 5%;
@@ -309,13 +309,13 @@ div#baixo-esq-baixo{
 }
 
 div#ab-subheader{
-    width: 30%;
+    width: 25%;
     margin: auto;
 }
 
 nav#ab-nav{
     width: 100%;
-    padding: 0 10px 0 10px;
+    /* padding: 0 2% 0 2%; */
 }
 
 footer.foot{
