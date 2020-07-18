@@ -16,7 +16,7 @@ img.icon-social{
 
 img.icon-socialyou{
     opacity: .5;
-    width: 5%;
+    width: 6%;
     filter: grayscale(100%);
     transition: filter .2s ease-in-out;
 }
