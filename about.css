@@ -31,7 +31,7 @@ p.desc{
 h1#carreerb,h1#carreerc{
     cursor: pointer;
     text-align: left;
-    padding-left: 250px;
+    padding-left: 10%;
 }
 
 div#baixo-esq{
@@ -48,7 +48,7 @@ div#baixo-esq-cima{
     animation: surgir2;
     animation-duration: 3s;
     background-color: blueviolet;
-    padding: 20px 40px 0px 0px;
+    padding: 4%;
     border-radius: 40px;
 }
 
@@ -57,7 +57,7 @@ div#baixo-esq-cima ul li{
     opacity: 1;
     animation: surgir;
     animation-duration: 4s;
-    padding: 20px;
+    padding: 4%;
     text-align: left;
     font-size: 18pt;
     /* list-style: none; */
@@ -70,6 +70,7 @@ div#baixo-dir ul li{
     animation-duration: 4s;
     padding-bottom: 25px;
     text-align: left;
+    /* background-color: aquamarine; */
 }
 
 div#baixo-dir{
@@ -245,7 +246,8 @@ h1#skill{
     width: 88%;
     height: 250px;
     padding-top: 20px;
-    display: none;        
+    display: none; 
+    font-family: Roboto;       
 }
 
 div#cima-esq{
@@ -306,16 +308,6 @@ div#cima-dir ul li{
 
 div#baixo-esq-baixo{
     padding: 1%;
-}
-
-div#ab-subheader{
-    width: 25%;
-    margin: auto;
-}
-
-nav#ab-nav{
-    width: 100%;
-    /* padding: 0 2% 0 2%; */
 }
 
 footer.foot{

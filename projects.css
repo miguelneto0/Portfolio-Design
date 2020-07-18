@@ -1,8 +1,8 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+  } */
   
 div#project2{
     background-color: rgb(43, 24, 54);
@@ -137,6 +137,7 @@ img.bgC{
     width: 45%;
     border-radius: 8px;
   }
+  
 article#welcome{
     width: 30%;
     height: 10%;

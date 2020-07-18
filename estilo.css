@@ -189,3 +189,12 @@ a.list{
     src: local("Dry Brush.ttf"),
     url("fonts/DryBrush.ttf") format("truetype");        
   }
+
+  div#socialmedia{
+      padding: 3%;
+  }
+
+  li.socialmed{
+      display: inline;
+      padding: 3%;
+  }

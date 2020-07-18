@@ -1,0 +1,35 @@
+div#socialmedia{
+    padding: 3%;
+}
+
+li.socialmed{
+    display: inline;
+    padding: 3%;
+}
+
+img.icon-social{
+    opacity: .5;
+    width: 3%;
+    filter: grayscale(100%);
+    transition: filter .2s ease-in-out;
+}
+
+img.icon-socialyou{
+    opacity: .5;
+    width: 5%;
+    filter: grayscale(100%);
+    transition: filter .2s ease-in-out;
+}
+
+img.icon-socialface{
+    opacity: .5;
+    width: 4%;
+    filter: grayscale(100%);
+    transition: filter .2s ease-in-out;
+}
+
+img.icon-social:hover,img.icon-socialyou:hover,img.icon-socialface:hover{
+    opacity: .9;
+    filter: grayscale(0%);
+    transition: filter .4s ease-in-out, opacity .4s ease-in-out;
+}
