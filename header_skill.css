@@ -1,18 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 p#titulo-dir{
     font-family: "Baskerville", serif;
     font-size: 40pt;
     font-style: bold;
-    padding: 1%;
+    /* padding: 1%; */
+    margin: auto;
     color: rgb(104, 93, 93);
-    margin-right: 30%;
+    float: right;
+    margin-right: 15%;
+    padding-top: 2%;
     /*background-color: rgb(76, 171, 235);*/
     /* float: right; */
 }
 
 div#subheader{
     margin: auto;
-    width: 100%;
-    /*background-color: rgb(70, 255, 193);*/
+    width: 55%;
+    height: 100%;
+    margin-top: 7.2%;
+    padding: 1%;
+    /*margin-bottom: 4%; */
+    /* margin-top: 20px; */
+    /* background-color: rgb(70, 255, 193); */
     /* background-color: blueviolet; */
 }
 
@@ -24,8 +37,8 @@ body{
 }
 
 img.miguel{
-    float: left;
-    margin-left: 30%;
+    /* float: left; */
+    /* margin-left: 30%; */
     border-radius: 100px;
     border: 5px solid white;
     box-shadow: 2px 5px 5px rgba(147, 147, 209, 0.459);
@@ -47,35 +60,37 @@ div img.miguel:hover{
     filter: drop-shadow(15px 10px 5px rgba(121, 127, 209, 0.2));
 }
 
-nav{
-    /*background-color: orange;*/
-    width: 100%;
-    float: center;
-    padding-top: 2%;
-    padding-bottom: 1%;
+header{
+    /* position: absolute; */
+    /* background-color: orange; */
+    width: 80%;
+    margin: auto;
+    height: 100%; 
+    /* margin-top: 80px; */
+    /*padding-top: 1%;
+    padding-bottom: 1%;  */
 }
 
-header{
-    font-size: 20%;
+nav{  
+    position: absolute;
+    top: 0;
     width: 100%;
+    /* height: 50%; */
+    margin: auto;
+    /* margin-top: 1%; */
     /* background-color: aqua; */
 }
 
 ul.menu {
     list-style-type: none;
-    padding-top: 1%;
-    /* margin: auto; */
-    /* overflow: hidden; */
-    /* background-color: red; */
   }
-  
+
   li.menuli {
-    overflow: hidden;
-    /* float: left; */
     font-family: "Times New Roman", Times, serif;
     font-size: 20pt;
+    display: block;
+    float: left;
     /* width: 25%; */
-    display: inline;
     padding-top: 1%;
     padding-bottom: 1%;
     /* background-color: blueviolet; */
@@ -86,11 +101,12 @@ ul.menu {
     color: rgb(147, 164, 194);
     text-align: center;
     text-decoration: none;
-    transition: background-image ease-in-out 1s;    
+    transition: background-image 1s ease-in-out;    
   }
   
   li.menuli a:hover {
     background-image: radial-gradient(rgba(228, 222, 222, 0.918) 30%, rgb(240, 239, 239) 80%);
     color: rgb(107, 107, 167);
     text-decoration: none;
+    transition: background-image .5s ease-in-out;
   }

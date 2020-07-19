@@ -82,7 +82,7 @@ div#project{
   }
 
   h1.tit-sub-proj{
-      width: 50%;
+      width: 90%;
       margin: auto;
       padding: 20px 20px 0px 20px;
       color: aliceblue;
@@ -113,6 +113,11 @@ img.bg1{
     border-radius: 5px;
   }
 
+  img.bg6{
+    width: 45%;
+    border-radius: 5px;
+  }
+  
   img.bgA{
     width: 30%;
     border-radius: 5px;
@@ -151,6 +156,10 @@ h1#welcome{
     font-size: 8pt;
     text-align: center;
     background-color: aqua;
+}
+
+img.icon-freelP{
+  width: 90px;
 }
 
   /* .bg-1{

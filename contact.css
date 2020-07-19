@@ -9,7 +9,7 @@ li.socialmed{
 
 img.icon-social{
     opacity: .5;
-    width: 3%;
+    width: 2.6%;
     filter: grayscale(100%);
     transition: filter .2s ease-in-out;
 }
@@ -17,13 +17,6 @@ img.icon-social{
 img.icon-socialyou{
     opacity: .5;
     width: 6%;
-    filter: grayscale(100%);
-    transition: filter .2s ease-in-out;
-}
-
-img.icon-socialface{
-    opacity: .5;
-    width: 4%;
     filter: grayscale(100%);
     transition: filter .2s ease-in-out;
 }

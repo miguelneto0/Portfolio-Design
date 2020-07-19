@@ -25,7 +25,7 @@ p.desc{
     font-size: 9.2pt;
     text-align: left;
     width: 75%;
-    margin-left: auto;
+    /* margin-left: auto; */
 }
 
 h1#carreerb,h1#carreerc{
@@ -179,8 +179,8 @@ section{
 }
 
 img.icon-freel{
-    width: 80px;
-    float: left;
+    width: 12%;
+    margin: auto;
 }
 
 img.icon-acad{
