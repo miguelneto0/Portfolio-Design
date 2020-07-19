@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
   } */
-  
+
+
 div#project2{
     background-color: rgb(43, 24, 54);
     width: 95%;
@@ -17,11 +18,19 @@ div#project{
     margin: auto;
 }
 
+div#project3{
+  background-color: rgb(43, 24, 54);
+  width: 95%;
+  height: 580px;
+  margin: auto;
+} 
+
+
   /* Galeria */
   
   .gallery {
     position: relative;
-    top: 42%;
+    top: 40%;
     transform: translateY(-50%);
     width: 80%;
     margin: auto;
@@ -84,6 +93,7 @@ div#project{
   h1.tit-sub-proj{
       width: 90%;
       margin: auto;
+      font-size: 140%;
       padding: 20px 20px 0px 20px;
       color: aliceblue;
   }
