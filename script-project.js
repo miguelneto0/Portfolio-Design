@@ -28,4 +28,20 @@ document.addEventListener('DOMContentLoaded', function() {
         stream2.appendChild(items2[0]);
         items2 = document.querySelectorAll('.gallery__item2');
       });
+  
+
+  var stream3 = document.querySelector('.gallery__stream3');
+    var items3 = document.querySelectorAll('.gallery__item3');
+    var prev3 = document.querySelector('.gallery__prev3');
+    var next3 = document.querySelector('.gallery__next3');
+
+    prev3.addEventListener('click', function() {
+        stream3.insertBefore(items3[items3.length - 1], items3[0]);
+        items3 = document.querySelectorAll('.gallery__item3');
+      });
+    
+      next3.addEventListener('click', function() {
+        stream3.appendChild(items3[0]);
+        items3 = document.querySelectorAll('.gallery__item3');
+      });
   });
