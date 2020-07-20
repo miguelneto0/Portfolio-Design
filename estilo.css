@@ -178,6 +178,11 @@ div#esquerda li{
     padding: 5px 60px 20px 20px;
 }
 
+li.outl{
+    /* margin: auto; */
+    margin-left: 3%;
+}
+
 @font-face {
     font-family: "DryBrush";
     src: local("Dry Brush.ttf"),
