@@ -313,6 +313,7 @@ div#cima-dir ul li{
     margin-right: 2%;
     text-align: center;
     display: inline;
+    /* margin-top: 10px; */
 
 }
 
@@ -330,6 +331,58 @@ div#timeline{
     margin-top: 5%;
     border-radius: 10px;
     background-color: rgb(81, 103, 124);
+}
+
+div.circ{
+    width: 25px;
+    height: 25px;
+    border-radius: 90px;
+    background-color: rgb(149, 190, 243);
+    border: solid 2px rgb(28, 30, 61);
+    overflow: visible;
+    /* position: relative; */
+    /* margin-left: 10%; */
+    /* margin-bottom: 20px; */
+}
+
+ul.timelin li{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+div.circ{
+    margin: auto;
+}
+
+div#circ1{
+    /* position: relative; */
+    margin-left: 10%;
+    margin-bottom: 20px;
+    /* float: left; */
+}
+
+div#circ2{
+    /* position: static; */
+    /* float: right; */
+    margin-right: 65%;
+}
+
+div#circ3{
+    /* position: static; */
+    /* float: right; */
+    margin-right: 35%;
+}
+
+div#circ4{
+    /* position: static; */
+    /* float: right; */
+    margin-right: 32%;
+}
+
+p.pcirc{
+    font-size: 8pt;
+    margin-top: 25px;
+    margin-left: 2px;
 }
 
 div#baixo-esq-baixo{
