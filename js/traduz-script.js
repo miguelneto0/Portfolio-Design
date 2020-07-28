@@ -10,7 +10,7 @@ document.getElementById("port").addEventListener("click", traduzport)
 
 function traduzspanish(){
     menu1.innerHTML = '<a class="list" href="index.html">Inicio</a>';
-    menu2.innerHTML = '<a class="list" href="projects.html">Projectos</a>';
+    menu2.innerHTML = '<a class="list" href="projects.html">Proyectos</a>';
     menu3.innerHTML = '<a class="list" href="contact.html">Contacto</a>';
     menu4.innerHTML = '<a class="list" href="about.html">Sobre mí</a>';
     idioma.innerHTML = "Cambiar Lengua:";

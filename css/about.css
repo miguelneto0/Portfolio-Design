@@ -333,6 +333,10 @@ div#timeline{
     background-color: rgb(81, 103, 124);
 }
 
+div#rodape{
+    height: 280px;
+}
+
 div.circ{
     width: 25px;
     height: 25px;
@@ -356,7 +360,7 @@ div.circ{
 
 div#circ1{
     /* position: relative; */
-    margin-left: 10%;
+    margin-left: 5%;
     margin-bottom: 20px;
     /* float: left; */
 }
@@ -435,3 +439,15 @@ footer.foot{
     50% {opacity: 0;}
     100% { opacity: 1;}
 }  
+
+@media screen and (max-width: 800px){
+    div#rodape{ 
+            height: 40%;
+    }
+  }
+
+  @media screen and (max-width: 600px){
+    div#rodape{ 
+            height: 20%;
+    }
+  }
