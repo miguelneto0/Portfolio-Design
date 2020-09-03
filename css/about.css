@@ -255,7 +255,7 @@ h1#skill{
     width: 88%;
     height: 300px;
     padding-top: 20px;
-    display: none; 
+    display: block; /* alterar aqui */ 
     font-family: Roboto;       
 }
 
@@ -265,6 +265,7 @@ div#cima-esq{
     margin: auto;
     float: left;
     margin-left: 4%;
+    margin-top: 2.5%;
     /* background-color: antiquewhite; */
 }
 
@@ -317,13 +318,13 @@ div#cima-dir ul li{
 
 }
 
-#cima-dir h1{
-    font-size: 18pt;
+#cima-dir h1, #timeline h1{
+    font-size: 14pt;
     padding: 0 5px 5px 5px;
     text-align: center;
 }
 
-div#timeline{
+div#barra{
     width: 40%;
     height: 6px;
     float: right;
@@ -337,16 +338,23 @@ div#rodape{
     height: 280px;
 }
 
-div.circ{
-    width: 25px;
-    height: 25px;
-    border-radius: 90px;
-    background-color: rgb(149, 190, 243);
-    border: solid 2px rgb(28, 30, 61);
-    overflow: visible;
+.losang{
     /* position: relative; */
-    /* margin-left: 10%; */
-    /* margin-bottom: 20px; */
+    margin: -52px 0px 0px 0px;
+    width: 12px;
+    height: 12px;
+    transform: rotate(45deg);
+    border: solid 2px #1f254b;
+    background-color: #bcbfd1;
+}
+
+div.circ{
+    margin: -50px 0 0px 0;
+    width: 19px;
+    height: 19px;
+    border-radius: 90px;
+    background-color: rgb(214, 214, 214);
+    border: solid 3px rgb(28, 30, 61);
 }
 
 ul.timelin li{
@@ -354,39 +362,193 @@ ul.timelin li{
     padding-left: 20px;
 }
 
-div.circ{
-    margin: auto;
+div#losang1{
+    margin-left: -10px;
+}
+
+div#losang2{
+    margin-left: 8px;
+}
+div#losang3{
+    margin-left: -5px;
+}
+div#losang4{
+    margin-left: 10px;
+}
+span#losan2{
+    display: none;
+    margin-left: -26px;
+}
+span#losan3{
+    display: none;
+    margin-left: -38px;
+}
+span#losan4{
+    display: none;
+    margin-left: -23px;
 }
 
 div#circ1{
-    /* position: relative; */
-    margin-left: 5%;
-    margin-bottom: 20px;
-    /* float: left; */
+    position: relative;
+    margin-right: 10px;
+    margin-top: -55px;
+    /* margin-top: -20px; */
+    /* margin-top: -5px; */
+    /* margin-left: 5%; */
+}
+
+div#losang1:hover > span#losan1{
+    display: block;
 }
 
 div#circ2{
-    /* position: static; */
+    /* position: relative; */
     /* float: right; */
-    margin-right: 65%;
+    margin-right: 50px;
+    margin-top: -55px;
 }
 
 div#circ3{
-    /* position: static; */
+    position: relative;
     /* float: right; */
-    margin-right: 35%;
+    margin-left: 40px;
+    margin-top: -55px;
+}
+
+li.los1:hover span#losan1,li.los2:hover span#losan2,
+li.los3:hover span#losan3,li.los4:hover span#losan4,
+li.cir1:hover span#grad1,li.cir2:hover span#grad2,
+li.cir3:hover span#grad3{
+    display: block;
+}
+
+p#pcirc2{
+    margin-left: -35px;
+}
+p#pcirc3{
+    margin-left: 20px;
 }
 
 div#circ4{
-    /* position: static; */
+    position: relative;
     /* float: right; */
     margin-right: 32%;
 }
 
-p.pcirc{
+p.pcirc,p.plosang{
     font-size: 8pt;
-    margin-top: 25px;
+    margin-top: 20px;
+    margin-left: -10px;
+}
+
+p#plosang1{
+    margin-left: -20px;
+}
+p#plosang4{
     margin-left: 2px;
+}
+span#losan1{
+    display: none;
+    margin-left: -44px;
+}
+
+li.los:hover .publ{
+    display: block;
+}
+
+.losango{
+	/* relative para nossos elementos não fugirem */
+	position:relative;
+	/* escolhemos o tamanho do nosso losango */
+	width: 5px;
+	height: 14px;
+}
+.losango::after{
+	/* content é OBRIGATÓRIO, se não tiver, o pseudo-elemento
+	   não será renderizado no DOM. */
+	content:'';
+	position: absolute  ;
+	/* importante, a direção de alinhamento(bottom, top, right, left)
+	   tem que ser declarada no mesmo sentido que a nossa borda "colorida"
+	   o valor 70 é a metade da altura do losango, se o losango
+	   estivesse deitado, seria metade da largura, 
+	   e alinhado ao left+border-left "colorida" */
+	bottom: 7px;
+	border-bottom: 7px solid #192314;
+	border-left: 5px solid transparent;
+	border-right:5px solid transparent;
+}
+.losango::before{
+	content:'';
+	position: absolute;
+	/* alinha ao top, borda no top "colorida" */
+	top: 7px;
+	border-top: 7px solid #192314;
+	border-left: 5px solid transparent;
+	border-right:5px solid transparent;
+}
+
+span.publ{
+    background-color: #1f254b;
+    color: wheat;
+}
+
+span#grad3{
+    display: none;
+    margin-top: -60px;
+    margin-left: 8px;
+    width: 85px;
+    height: 40px;
+}
+
+span#grad3::before{
+    content: '';
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #f4f4f4;
+    position: absolute;
+    top: 40px;
+    left: 43%;
+}
+
+span.publ::before {
+    content: '';
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #1f254b;
+    position: absolute;
+    top: 25px;
+    left: 43%;
+}
+
+span{
+    display: none;
+    text-align: center;
+    line-height: normal;
+    position: absolute;
+    margin: -40px 0px 0px -30px;
+    font-size: 6.8pt;
+    background-color: white;
+    width: 80px;
+    height: 25px;
+    border-radius: 20px;
+    /* display: none; */
+}
+
+span::before {
+    content: '';
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #f4f4f4;
+    position: absolute;
+    top: 25px;
+    left: 43%;
 }
 
 div#baixo-esq-baixo{
