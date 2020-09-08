@@ -21,6 +21,7 @@ a:hover{
 }
 
 p.desc{
+    font-family: 'Calibri', sans-serif;
     color: rgb(40, 40, 58);
     font-size: 70%;
     margin: auto;
@@ -36,6 +37,8 @@ h1#carreerb,h1#carreerc{
     cursor: pointer;
     text-align: left;
     padding-left: 10%;
+    font-family: 'Lato', sans-serif;
+    font-size: 26pt;
 }
 
 div#baixo-esq{
@@ -45,6 +48,9 @@ div#baixo-esq{
 
 p#linkproj{
     padding: 8%;
+    color: #bcbfd1;
+    font-family: 'Calibri' sans-serif;
+    font-size: 90%;
 }
 
 div#baixo-esq-cima{
@@ -173,11 +179,15 @@ div.progressae{
 
 li.tools{
     list-style: none;
+    font-family: 'Calibri', sans-serif;
+    font-size: 18pt;
 }
 
 li.lan{
     display: inline;
     padding-right: 10px;
+    font-family: 'Calibri' sans-serif;
+    font-size: 98%;
 }    
 
 section{
@@ -399,6 +409,8 @@ div#circ1{
 
 div#losang1:hover > span#losan1{
     display: block;
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
 }
 
 div#circ2{
@@ -420,6 +432,8 @@ li.los3:hover span#losan3,li.los4:hover span#losan4,
 li.cir1:hover span#grad1,li.cir2:hover span#grad2,
 li.cir3:hover span#grad3{
     display: block;
+    /* opacity: 1; */
+    /* transition: opacity .3s ease-in-out; */
 }
 
 p#pcirc2{
@@ -451,10 +465,12 @@ p#plosang4{
 span#losan1{
     display: none;
     margin-left: -44px;
+    /* opacity: 0; */
 }
 
 li.los:hover .publ{
     display: block;
+    transition: transform .4s ease-in-out;
 }
 
 .losango{
@@ -500,9 +516,11 @@ span#grad3{
     margin-left: 8px;
     width: 85px;
     height: 40px;
+    /* opacity: 0; */
 }
 
 span#grad3::before{
+    /* opacity: 0; */
     content: '';
     width: 0; 
     height: 0; 
@@ -515,6 +533,7 @@ span#grad3::before{
 }
 
 span.publ::before {
+    /* opacity: 0; */
     content: '';
     width: 0; 
     height: 0; 
@@ -526,8 +545,12 @@ span.publ::before {
     left: 43%;
 }
 
-a{
+a.datatim{
     color: #888;
+}
+
+a.links{
+    color: rgb(25, 84, 139)
 }
 
 span{
@@ -542,9 +565,11 @@ span{
     height: 25px;
     border-radius: 20px;
     /* display: none; */
+    /* opacity: 0; */
 }
 
 span::before {
+    /* opacity: 0; */
     content: '';
     width: 0; 
     height: 0; 
