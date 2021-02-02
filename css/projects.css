@@ -1,10 +1,3 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  } */
-
-
 div#project2{
     background-color: rgb(43, 24, 54);
     width: 95%;
@@ -25,10 +18,21 @@ div#project3{
   margin: auto;
 } 
 
+@media (max-width:780px){
+  div#project,div#project2,div#project3{
+    height: 480px;
+  }
+  #gallery,#galleryVid,#galler{
+    height: 50%;
+  }
+  #galler{
+    height: 20%;
+  }
+}
 
   /* Galeria */
   
-  .gallery {
+  .gallery,#galler{
     position: relative;
     top: 40%;
     transform: translateY(-50%);
@@ -70,9 +74,6 @@ div#project3{
     }
   }
 
-/* @media{
-
-} */
 
   /* Itens */
 
@@ -199,26 +200,6 @@ img.icon-freelP{
   width: 90px;
 }
 
-  /* .bg-1{
-    width: 20%;
-    background-image: url("/projects/agrodigital.png");
-  }
-
-  .bg-2{
-    width: 20%;
-      background-image: url("/projects/paginaWeb1.jpg");
-  }
-
-  .bg-3{
-    width: 20%;
-      background-image: url("/projects/paginaWeb2disciplinas.jpg");
-  }
-
-  .bg-4{
-    width: 20%;
-    background-image: url("/projects/paginaWeb3aulas.jpg");
-  } */
-
   /* Controles */
 
 .gallery__prev,
@@ -247,7 +228,7 @@ img.icon-freelP{
 /* Sombras */
 
 .gallery:before,
-.gallery:after{
+.gallery:after,#galler:before,#galler:after{
   display: block;
   content: "";
   position: absolute;
@@ -277,12 +258,21 @@ img.icon-freelP{
   background:  linear-gradient(to left, rgba(79,27,109,1) 0%, rgba(79,27,109,0) 100%);
 }
 
-.gallery:before {
+.gallery:before,#galler:before{
   left: 0;
   background:  linear-gradient(to right, rgba(72, 57, 81,1) 0%, rgba(72, 57, 81,0) 100%);
 }
 
-.gallery:after{
+.gallery:after,#galler:after{
   right: 0;
   background:  linear-gradient(to left, rgba(72, 57, 81,1) 0%, rgba(72, 57, 81,0) 100%);
+}
+
+iframe{
+  box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.548);
+  transition: box-shadow .1s ease-in-out;
+}
+
+iframe:hover{
+  box-shadow: 20px 15px 30px rgba(0, 0, 0, 0.548);
 }
