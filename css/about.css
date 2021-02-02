@@ -50,7 +50,7 @@ p#linkproj{
     padding: 8%;
     color: #bcbfd1;
     font-family: 'Calibri' sans-serif;
-    font-size: 90%;
+    font-size: 2vh;
 }
 
 div#baixo-esq-cima{
@@ -290,6 +290,43 @@ div#cima-esq ul li:hover{
     font-size: 16pt;
     color: black;
     transition: font-size .2s ease-in-out;
+}
+
+span.grad{
+    font-size: 2vw;
+}
+
+@media (max-width:900px){
+    div#cima ul{
+        background-color: red;
+        display: block;
+    }
+}
+
+@media (max-width:780px){
+    div#cima-esq{
+        width: 90%;
+    }
+    div#cima-dir{
+        top:0;
+        float: center;
+        background-color: brown;
+        width: 200px;
+    }
+    div#timeline{
+        bottom: 0;
+        background-color: yellow;
+        width: 400px;
+    }
+    div#cima{
+        height: 650px;
+    }
+    div#baixo{
+        height: 1150px;
+    }
+    div#baixo-esq,div#baixo-dir{
+        width: 100%;
+    }
 }
 
 p.univ{
