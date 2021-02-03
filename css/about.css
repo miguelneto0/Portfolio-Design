@@ -105,6 +105,11 @@ div.tudo{
     padding-bottom: 30px;
 }
 
+div#timeline{
+    /* background-color: tomato; */
+    bottom: 0;
+}
+
 img.icon-apps{
     width: 10%;
     transition: .4s ease-in-out;
@@ -259,7 +264,7 @@ h1#skill{
 
 #cima{
     background-color: rgba(151, 151, 151, 0.315);
-    position: relative;
+    /* position: relative; */
     border-radius: 0 0 20px 20px;
     margin: auto;
     width: 88%;
@@ -294,39 +299,6 @@ div#cima-esq ul li:hover{
 
 span.grad{
     font-size: 2vw;
-}
-
-@media (max-width:900px){
-    div#cima ul{
-        background-color: red;
-        display: block;
-    }
-}
-
-@media (max-width:780px){
-    div#cima-esq{
-        width: 90%;
-    }
-    div#cima-dir{
-        top:0;
-        float: center;
-        background-color: brown;
-        width: 200px;
-    }
-    div#timeline{
-        bottom: 0;
-        background-color: yellow;
-        width: 400px;
-    }
-    div#cima{
-        height: 650px;
-    }
-    div#baixo{
-        height: 1150px;
-    }
-    div#baixo-esq,div#baixo-dir{
-        width: 100%;
-    }
 }
 
 p.univ{
@@ -365,10 +337,15 @@ div#cima-dir ul li{
 
 }
 
-#cima-dir h1, #timeline h1{
-    font-size: 14pt;
+#cima-dir h1{
+    font-size: 2.3vh;
     padding: 0 5px 5px 5px;
     text-align: center;
+}
+
+#timeline h1{
+    margin: 1% 0 0 0;
+    font-size: 2.3vh;
 }
 
 div#barra{
@@ -680,3 +657,132 @@ footer.foot{
             height: 20%;
     }
   }
+
+@media (max-width:1470px){
+    div#cima{
+        height: 430px;
+    }
+    div#cima-esq{
+        width: 50%;
+        /* background-color: tomato; */
+        float: left;
+        display: grid;
+    }
+    div#cima-dir{
+        width: 45%;
+        float: right;
+        margin: auto;
+        /* background-color: brown; */
+        /* height: 30%; */
+        display: grid;
+    }
+    div#timeline{
+        float: none;
+        margin: auto;
+        height: 20%;
+        bottom: 0;
+        /* background-color: yellowgreen; */
+        width: 80%;
+        display: grid;
+    }
+    div#barra{
+        position: relative;
+        width: 100%;
+    }
+}
+
+  @media (max-width:900px){
+    div#cima ul{
+        /* background-color: red; */
+        display: block;
+    }
+    div#baixo{
+        height: 600px;
+    }
+}
+
+@media (max-width:840px){
+    div#cima-esq,div#cima-dir{
+        height: 50%;
+    }
+    div#timeline{
+        /* background-color: tomato; */
+        height: 20%;
+        margin-top: 40%;
+    }
+}
+
+@media (max-width:780px){
+    div#cima-esq{
+        width: 90%;
+        /* background-color: tomato; */
+        float: none;
+        display: grid;
+    }
+    div#cima-dir{
+        width: 90%;
+        float: none;
+        margin: auto;
+        /* background-color: brown; */
+        height: 20%;
+        display: grid;
+    }
+    div#timeline{
+        float: none;
+        margin: auto;
+        height: 20%;
+        bottom: 0;
+        /* background-color: yellowgreen; */
+        width: 90%;
+        display: grid;
+    }
+    div#barra{
+        position: relative;
+        width: 100%;
+    }
+    div#cima{
+        height: 650px;
+    }
+    div#baixo{
+        height: 1150px;
+    }
+    div#baixo-esq,div#baixo-dir{
+        width: 100%;
+    }
+}
+
+@media (max-width:650px){
+    div#timeline{
+        width: 90%;
+        margin-top: 0px;
+        /* background-color: tomato; */
+    }
+    .circ,.losang{
+        margin-left: 2px;
+    }
+    ul.timelin li{
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        margin-left: 0;
+    }
+    li.circ1, li.circ2, li.circ3, li.circ4, 
+    li.los1, li.los2, li.los3, li.los4{
+        /* margin-left: 1px; */
+        width: 1%;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width:450px){
+    div#baixo{
+        height: 1250px;
+    }
+}
+
+@media (max-width:405px){
+    div#baixo{
+        height: 1450px;
+    }
+}
