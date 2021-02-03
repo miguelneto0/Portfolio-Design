@@ -297,10 +297,6 @@ div#cima-esq ul li:hover{
     transition: font-size .2s ease-in-out;
 }
 
-span.grad{
-    font-size: 2vw;
-}
-
 p.univ{
     font-size: 9pt;
     text-align: left;
