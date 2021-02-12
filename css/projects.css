@@ -18,6 +18,30 @@ div#project3{
   margin: auto;
 } 
 
+div.divfrontend{
+  /* background-color: red; */
+  margin-top: 5%;
+  margin-right: 2%;
+  width: 30%;
+  height: 70%;
+  display: inline-flex;
+}
+div.divfrontend p{
+  /* text-align: center; */
+  margin: auto;
+  font-size: 1.2vw;
+  bottom: 0;
+}
+img.logosfrontend{
+  height: 50%;
+  margin: auto;
+  cursor: pointer;
+  transition: transform .3s ease-in-out;
+}
+img.logosfrontend:hover{
+  transform: rotate(15deg);
+}
+
 @media (max-width:780px){
   div#project,div#project2,div#project3{
     height: 480px;
