@@ -387,14 +387,18 @@ div#losang1{
 }
 
 div#losang2{
-    margin-left: 8px;
+    margin-left: -30px;
 }
 div#losang3{
-    margin-left: -5px;
+    margin-left: -36px;
 }
 div#losang4{
     margin-left: 10px;
 }
+div#losang5{
+    margin-left: 12px;
+}
+
 span#losan2{
     display: none;
     margin-left: -26px;
@@ -406,6 +410,10 @@ span#losan3{
 span#losan4{
     display: none;
     margin-left: -23px;
+}
+span#losan5{
+    display: none;
+    margin-left: -13px;
 }
 
 div#circ1{
@@ -433,12 +441,12 @@ div#circ2{
 div#circ3{
     position: relative;
     /* float: right; */
-    margin-left: 40px;
+    margin-left: -10px;
     margin-top: -55px;
 }
 
 li.los1:hover span#losan1,li.los2:hover span#losan2,
-li.los3:hover span#losan3,li.los4:hover span#losan4,
+li.los3:hover span#losan3,li.los4:hover span#losan4,li.los5:hover span#losan5,
 li.cir1:hover span#grad1,li.cir2:hover span#grad2,
 li.cir3:hover span#grad3{
     display: block;
@@ -450,7 +458,7 @@ p#pcirc2{
     margin-left: -35px;
 }
 p#pcirc3{
-    margin-left: 20px;
+    margin-left: -10px;
 }
 
 div#circ4{
@@ -469,9 +477,19 @@ p.pcirc,p.plosang{
 p#plosang1{
     margin-left: -20px;
 }
+p#plosang2{
+    margin-left: -58px;
+}
+p#plosang3{
+    margin-left: -28px;
+}
 p#plosang4{
     margin-left: 2px;
 }
+p#plosang5{
+    margin-left: 0px;
+}
+
 span#losan1{
     display: none;
     margin-left: -44px;
@@ -763,7 +781,7 @@ footer.foot{
         margin-left: 0;
     }
     li.circ1, li.circ2, li.circ3, li.circ4, 
-    li.los1, li.los2, li.los3, li.los4{
+    li.los1, li.los2, li.los3, li.los4,li.los5{
         /* margin-left: 1px; */
         width: 1%;
         margin: 0;
